@@ -2,9 +2,9 @@ name: mini project server CI/CD -test
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ dev ]
+    branches: [ main ]
 
 env:
   S3_BUCKET_NAME: miniproject-team1-deploy
