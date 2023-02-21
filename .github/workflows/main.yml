@@ -1,4 +1,4 @@
-name: mini project server CI/CD
+name: mini project server CI/CD -test
 
 on:
   push:
